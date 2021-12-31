@@ -21,3 +21,4 @@ jobs:
       # Deploy
       #- run: cd app && rsync -e "ssh -p 20022 -i $HOME/.ssh/key -o StrictHostKeyChecking=no" --archive --compress --delete . m71516@hostru04.fornex.org:/home/m71516/public_html/blog.maxgraph.ru
       - run: rsync -e "ssh -p 20022 -i $HOME/.ssh/key -o StrictHostKeyChecking=no" --archive --compress --delete . v81254@hostua03.fornex.org:/home/v81254/public_html/azetpro.top
+

@@ -19,5 +19,5 @@ jobs:
       #- run: npm ci
       #- run: npm run build
       # Deploy
-      - run: cd app && rsync -e "ssh -p 20022 -i $HOME/.ssh/key -o StrictHostKeyChecking=no" --archive --compress --delete . v81254@hostua03.fornex.host:/home/v81254/public_html/azetpro.top
+      - run: cd app && rsync -e "ssh -p 20022 -i $HOME/.ssh/key -o StrictHostKeyChecking=no" --archive --compress --delete . v81254@hostua03.fornex.org:/home/v81254/public_html/azetpro.top
 

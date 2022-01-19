@@ -1,0 +1,44 @@
+$minwidth: 320px;
+$mw: 1170;
+$md1: $mw + 12;
+$md2: 991.98;
+$md3: 767.98;
+$md4: 479.98;
+
+
+@mixin _1200 {
+  @media (max-width: 1200px) {
+    @content;
+  }
+}
+
+@mixin _992 {
+  @media (max-width: 992px) {
+    @content;
+  }
+}
+
+@mixin _768 {
+  @media (max-width: 768px) {
+    @content;
+  }
+}
+
+@mixin _480 {
+  @media (max-width: 480px) {
+    @content;
+  }
+}
+
+%rubik-300 {
+  font-family: "Rubik";
+  font-weight: 300;
+}
+
+// @function max($numbers...) {
+//   @return m#{a}x(#{$numbers});
+// }
+
+// @function max($numbers...) {
+//   @return m#{i}n(#{$numbers});
+// }

@@ -1,0 +1,19 @@
+.about {
+  padding: 93px 0 115px;
+
+  &__title {
+    margin-bottom: 76px;
+  }
+
+  &__text {
+    text-align: justify;
+    p {
+      margin-bottom: 30px;
+
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+  }
+}
+

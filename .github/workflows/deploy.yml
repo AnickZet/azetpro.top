@@ -15,7 +15,6 @@ jobs:
       - run: mkdir "$HOME/.ssh"
       - run: echo "${{ secrets.KEY }}" > "$HOME/.ssh/key"
       - run: chmod 600 "$HOME/.ssh/key"
-      - deploy_key : ${{ secrets.GITHUB_TOKEN }}
       # Build
       #- run: npm ci
       #- run: npm run build

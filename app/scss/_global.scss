@@ -1,29 +1,31 @@
 body {
   height: 100%;
-	color: #000;
-	font-size: 18px;
-  font-family:'Libre Franklin';
+  color: #000;
+  font-size: 18px;
+  font-family: 'Libre Franklin',
+    sans-serif;
   font-style: normal;
   font-weight: 400;
   line-height: 1.3;
-  color: #333333;
-	&.lock {
-		overflow: hidden;
-	}
+  color: #E4E4E4;
+
+  &.lock {
+    overflow: hidden;
+  }
 }
 
 .wrapper {
-	width: 100%;
-	min-height: 100vh;
-	overflow: hidden;
-	display: flex;
+  width: 100%;
+  min-height: 100vh;
+  overflow: hidden;
+  display: flex;
   flex-direction: column;
 }
 
 .container {
-	max-width: 1230px;
-	margin: 0 auto;
-	width: 100%;
+  max-width: 1230px;
+  margin: 0 auto;
+  width: 100%;
   padding: 0 15px;
 }
 

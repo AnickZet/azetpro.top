@@ -2,12 +2,14 @@
 @import 'fonts';
 @import 'reset';
 @import 'global';
+@import 'libs';
 
 
 @import 'components/header';
-@import 'pages/about';
-@import 'pages/skills';
-@import 'pages/portfolio';
+@import 'top';
+@import 'about';
+@import 'portfolio';
+
 @import 'components/footer';
 
 

@@ -1,76 +1,33 @@
 .header {
-  min-height: 100vh;
-  display: flex;
-  padding: 93px 0;
-  background: url('../img/bg-home.jpg') center / cover no-repeat;
-  color: #fff;
+  background: linear-gradient(101.56deg, #2C2C2C 1.56%, #1C1C1C 95.55%);
+  padding: 26px 0;
 
   &__inner {
     display: flex;
-    flex-direction: column;
-  }
-
-  &__top {
-    display: flex;
-    column-gap: 20px;
-    position: fixed;
-    width: 100%;
+    justify-content: space-between;
+    align-items: center;
   }
 
   &__logo {}
 
-  &__logo-link {}
-
-  &__nav {
-    margin-left: auto;
+  &__menu {
   }
 
-  &__nav-list {
+  &__list {
     display: flex;
+    column-gap: 145px;
   }
 
-  &__nav-item {
-    margin-right: 60px;
-
-    &:last-child {
-      margin-right: 0;
-    }
-  }
-
-  &__nav-link {
-    display: block;
-    color: inherit;
-    transition: all 0.6s;
-
-    &:hover {
-      transform: scale(1.2);
-    }
-
-    &:focus {
-      transform: scale(1.2);
-      outline: transparent;
-    }
-
-    &.active {
-      transform: scale(1.2);
-      font-weight: 600;
-    }
-  }
-
-  &__content {}
-
-  &__title {
-    font-size: 64px;
-    margin-bottom: 26px;
-  }
-
-  &__subtitle {
-    font-size: 24px;
-    margin-bottom: 106px;
-  }
+  &__item {}
 
   &__link {
-    text-decoration: underline;
-    color: inherit;
+    font-weight: 00;
+    font-size: 18px;
+    color: #E4E4E4;
+    transition: all 0.3s;
+
+    &:hover {
+      text-shadow: 2px 2px 4px #E2A300;
+    }
   }
 }
